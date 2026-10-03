@@ -1,8 +1,10 @@
-type PawProps = { className?: string; label?: string }
+import type { CSSProperties } from 'react'
 
-export function Paw({ className = '', label }: PawProps) {
+type PawProps = { className?: string; label?: string; style?: CSSProperties }
+
+export function Paw({ className = '', label, style }: PawProps) {
   return (
-    <svg className={className} viewBox="0 0 64 64" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : true}>
+    <svg className={className} style={style} viewBox="0 0 64 64" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : true}>
       <g fill="currentColor">
         <ellipse cx="31" cy="42" rx="15" ry="12" />
         <ellipse cx="14" cy="27" rx="7" ry="9" transform="rotate(-25 14 27)" />

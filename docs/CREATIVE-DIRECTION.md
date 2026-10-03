@@ -12,7 +12,7 @@ La experiencia se construye alrededor de una idea sencilla: **sus huellas perman
 4. **Recuerdos:** las fotografías reales toman el protagonismo editorial.
 5. **Regalo:** se revela que este lugar también fue creado para quien recibe el enlace.
 6. **Carta:** un momento táctil y personal, como una hoja conservada.
-7. **Celebración:** la noche cambia gradualmente a amanecer y diez luces representan diez años.
+7. **Celebración:** la noche cambia gradualmente a amanecer y ocho luces representan ocho a\u00f1os.
 8. **Camino:** el paisaje final convierte la huella en permanencia.
 9. **Epílogo:** el último recuerdo es alegre, con Scooby y su juguete.
 

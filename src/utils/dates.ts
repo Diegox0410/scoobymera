@@ -40,13 +40,13 @@ export const timeSincePassing = (passingIso: string, now = new Date()) => {
 }
 
 export const getBirthdayMessage = (date = new Date()) => {
-  if (sameCalendarDay(date, 10, 4, 2026)) return 'Hoy cumplirías 10 años.'
+  if (sameCalendarDay(date, 10, 4, 2026)) return 'Hoy cumplir\u00edas 8 a\u00f1os.'
   if (isBirthday(date)) return 'Hoy celebramos el día en que llegaste.'
   return 'Celebramos el día en que llegaste.'
 }
 
 export const getContextualDateMessage = (date = new Date()) => {
   if (isThreeMonthMemorial(date)) return 'Hoy se cumplen 3 meses desde que te fuiste.'
-  if (sameCalendarDay(date, 10, 4, 2026)) return 'Hoy cumplirías 10 años. Feliz cumpleaños hasta el cielo, Scooby.'
+  if (sameCalendarDay(date, 10, 4, 2026)) return 'Hoy cumplir\u00edas 8 a\u00f1os.'
   return ''
 }
