@@ -1,0 +1,10 @@
+{
+  "name": "Scooby — Siempre contigo",
+  "short_name": "Scooby",
+  "description": "Un pequeño lugar para recordar una vida llena de amor.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111d",
+  "theme_color": "#07111d",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
