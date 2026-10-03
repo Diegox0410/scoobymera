@@ -3,4 +3,4 @@ dist/
 .DS_Store
 *.local
 .vercel/
-V2/
+/V2/
