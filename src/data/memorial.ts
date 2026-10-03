@@ -87,7 +87,7 @@ const v2 = {
 } satisfies Record<string, MemorialPhoto>
 
 export const memorial = {
-  pet: { name: 'Scooby', birthDate: '2018-10-04', passingDate: '2026-07-03' },
+  pet: { name: 'Scooby', birthDate: '2018-10-03', passingDate: '2026-07-04' },
   recipient: { name: '', message: '' },
   media: {
     hero: original.celebration,
@@ -103,7 +103,7 @@ export const memorial = {
     ] satisfies MemorialVideo[],
     audio: { src: '/media/scooby/v2/audio/scooby-theme.mp3', title: 'Música del recuerdo' },
   },
-  birthday: { dateLabel: '04 de octubre', lights: 8 },
+  birthday: { dateLabel: '03 de octubre', lights: 8 },
   copy: {
     intro: {
       first: 'Hay amores que no necesitan estar presentes para seguir acompañándonos.',

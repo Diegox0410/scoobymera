@@ -9,7 +9,7 @@ export function TimeSince() {
   return (
     <section className="section time-section" aria-labelledby="time-title">
       <Reveal className="time-copy">
-        <span className="kicker">Desde el 03 de julio</span>
+        <span className="kicker">Desde el 04 de julio</span>
         <h2 id="time-title">El tiempo sigue...</h2>
         <p className="time-count">{elapsed.label}</p>
         <p className="time-turn">El tiempo puede contar los días.</p>
