@@ -13,7 +13,7 @@ export function ImportantDates() {
       {contextual && <Reveal className="date-now" role="status">{contextual}</Reveal>}
       <div className="dates-flow">
         <Reveal className="date-moment date-moment--arrival">
-          <time dateTime="2018-10-04"><b>04</b><span>OCT \u00b7 2018</span></time>
+          <time dateTime="2018-10-04"><b>04</b><span>OCT · 2018</span></time>
           <p>Y otra nos recuerda<br />la suerte de que llegaras.</p>
         </Reveal>
         <div className="dates-line" aria-hidden="true"><Paw /></div>
